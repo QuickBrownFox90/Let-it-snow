@@ -1,0 +1,46 @@
+{
+    "name": "LetItSnow",
+    "author": "Patrick Mauersberger",
+    "version": "1.0.0",
+
+    "description": "",
+    "license": "MIT",
+
+    "scripts": {
+        "update":  "yarn dep & yarn dev",
+        "dev":     "yarn install --production false",
+        "dep":     "yarn install --modules-folder _libs --production true"
+    },
+    "engines": {
+        "node": ">=15.0.0"
+    },
+
+    "dependencies": {
+    },
+
+    "devDependencies": {
+        "@babel/core":            "^7.0.0",
+        "@babel/preset-env":      "^7.24.3",
+        "autoprefixer":           "^9.8.8",
+        "babel-cli":              "*",
+        "babel-core":             "*",
+        "eslint-plugin-babel":    "^5.3.1",
+        "grunt":                  "^1.4.1",
+        "grunt-babel":            "*",
+        "grunt-browser-sync":     "*",
+        "grunt-contrib-concat":   "^2.1.0",
+        "grunt-contrib-copy":     "^1.0.0",
+        "grunt-contrib-uglify":   "^4.0.1",
+        "grunt-contrib-watch":    "*",
+        "grunt-eslint":           "*",
+        "grunt-jsonlint":         "*",
+        "grunt-shell":            "^4.0.0",
+        "load-grunt-tasks":       "^4.0.0"
+    },
+
+    "browserslist": [
+        "last 2 version",
+        "Firefox ESR",
+        "Android > 7"
+    ]
+}

@@ -1,0 +1,14 @@
+/node_modules
+/node_modules/
+.DS_Store
+.git
+/_libs
+/_libs/
+/libs
+/libs/
+/build
+/build/
+*.map
+package-lock.json
+yarn.lock
+.yarn-integrity

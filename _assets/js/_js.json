@@ -1,0 +1,7 @@
+{
+    "src": [
+        "<%=project.js%>project.js",
+        "<%=project.js%>snow.js",
+        "<%=project.js%>_magic.js"
+    ]
+}
