@@ -1,4 +1,4 @@
-# License MIT
+# MIT License
 
 Copyright 2025 Patrick Mauersberger
 
